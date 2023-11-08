@@ -117,3 +117,17 @@ my_linked_list.print_list()
 # print(my_linked_list.pop())
 
 # print(my_linked_list.pop())
+
+# Write a method to find and return the middle node in the Linked List WITHOUT using the length attribute.
+# If the length is even, return the second middle node.
+# def mid_point(self):
+#     temp = self.head
+#     length = 0
+#     while temp is not None:
+#         length += 1
+#         temp = temp.next
+#     mid = length // 2
+#     temp = self.head
+#     for _ in range(mid):
+#         temp = temp.next
+#     return temp.value
